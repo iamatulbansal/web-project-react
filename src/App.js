@@ -1,9 +1,9 @@
 import "./App.css";
-import Signup from "./Signup";
+import CandidateProfileForm from "./CandidateProfileForm";
 function App() {
   return (
     <div>
-      <Signup />
+      <CandidateProfileForm />
     
     </div>
   );

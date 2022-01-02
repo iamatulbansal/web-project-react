@@ -1,6 +1,6 @@
 import React from "react";
 import { Form, Col, Row } from "react-bootstrap";
-function Signup() {
+function CandidateProfileForm() {
   return (
     <>
       <div className="container-fluid rounded-pill mt-2">
@@ -12,7 +12,7 @@ function Signup() {
                   <img
                     src="https://icon-library.com/images/signup-icon/signup-icon-13.jpg"
                     className=" figure-img img-fluid rounded"
-                    alt="signup"
+                    alt="CandidateProfileForm"
                   />
                 </figure>
                 <figcaption>
@@ -211,4 +211,4 @@ function Signup() {
   );
 }
 
-export default Signup;
+export default CandidateProfileForm;
