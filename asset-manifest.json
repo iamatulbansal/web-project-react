@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/development-state-project/static/css/main.a6560cfd.css",
+    "main.js": "/development-state-project/static/js/main.71c787ca.js",
+    "index.html": "/development-state-project/index.html",
+    "main.a6560cfd.css.map": "/development-state-project/static/css/main.a6560cfd.css.map",
+    "main.71c787ca.js.map": "/development-state-project/static/js/main.71c787ca.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a6560cfd.css",
+    "static/js/main.71c787ca.js"
+  ]
+}
