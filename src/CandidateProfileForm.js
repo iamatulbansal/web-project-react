@@ -1,5 +1,4 @@
 import React from "react";
-import { Form, Col, Row } from "react-bootstrap";
 function CandidateProfileForm() {
   return (
     <>
@@ -25,18 +24,21 @@ function CandidateProfileForm() {
               <div className="col ">
                 <form className="row g-3">
                   <div className="col-md-6">
-                    <label for="inputEmail4" className="form-label">
+                    <label 
+                    htmlfor="firstname" 
+                    className="form-label">
                       Firstname
                     </label>
                     <input
+                      id="firstname"
+                      name="firstname"
                       type="text"
                       placeholder="Charanjeet"
                       className="form-control"
-                      id="inputEmail4"
                     />
                   </div>
-                  <div className="col-md-6">
-                    <label for="inputEmail4" className="form-label">
+                  {/* <div className="col-md-6">
+                    <label htmlfor="inputEmail4" className="form-label">
                       Lastname
                     </label>
                     <input
@@ -47,7 +49,7 @@ function CandidateProfileForm() {
                     />
                   </div>
                   <div className="col-md-6">
-                    <label for="inputEmail4" className="form-label">
+                    <label htmlfor="inputEmail4" className="form-label">
                       Username
                     </label>
                     <input
@@ -58,7 +60,7 @@ function CandidateProfileForm() {
                     />
                   </div>
                   <div className="col-md-6">
-                    <label for="inputEmail4" className="form-label">
+                    <label htmlfor="inputEmail4" className="form-label">
                       Email
                     </label>
                     <input
@@ -69,7 +71,7 @@ function CandidateProfileForm() {
                     />
                   </div>
                   <div className="col-md-6">
-                    <label for="inputEmail4" className="form-label">
+                    <label htmlfor="inputEmail4" className="form-label">
                       Mobile
                     </label>
                     <input
@@ -80,7 +82,7 @@ function CandidateProfileForm() {
                     />
                   </div>
                   <div className="col-md-6">
-                    <label for="inputEmail4" className="form-label">
+                    <label htmlfor="inputEmail4" className="form-label">
                       D.O.B
                     </label>
                     <input
@@ -90,19 +92,9 @@ function CandidateProfileForm() {
                       id="inputEmail4"
                     />
                   </div>
-                  {/* <div className="col-md-6">
-                    <label for="inputPassword4" className="form-label">
-                      Password
-                    </label>
-                    <input
-                      placeholder="Password"
-                      type="password"
-                      className="form-control"
-                      id="inputPassword4"
-                    />
-                  </div> */}
+                 
                   <div className="col-12">
-                    <label for="inputAddress" className="form-label">
+                    <label htmlfor="inputAddress" className="form-label">
                       Address
                     </label>
                     <input
@@ -112,19 +104,9 @@ function CandidateProfileForm() {
                       placeholder=" Address"
                     />
                   </div>
-                  {/* <div className="col-12">
-                    <label for="inputAddress2" className="form-label">
-                      Address 2
-                    </label>
-                    <input
-                      type="text"
-                      className="form-control"
-                      id="inputAddress2"
-                      placeholder="Apartment, studio, or floor"
-                    />
-                  </div> */}
+               
                   <div className="col-md-6">
-                    <label for="inputCity" className="form-label">
+                    <label htmlfor="inputCity" className="form-label">
                       City
                     </label>
                     <input
@@ -135,7 +117,7 @@ function CandidateProfileForm() {
                     />
                   </div>
                   <div className="col-md-4">
-                    <label for="inputState" className="form-label">
+                    <label htmlfor="inputState" className="form-label">
                       State
                     </label>
                     <select id="inputState" className="form-select">
@@ -147,7 +129,7 @@ function CandidateProfileForm() {
                     </select>
                   </div>
                   <div className="col-md-4">
-                    <label for="inputState" className="form-label">
+                    <label htmlfor="inputState" className="form-label">
                       Country
                     </label>
                     <select id="inputState" className="form-select">
@@ -160,7 +142,7 @@ function CandidateProfileForm() {
                     </select>
                   </div>
                   <div className="col-md-2">
-                    <label for="inputZip" className="form-label">
+                    <label htmlfor="inputZip" className="form-label">
                       Zip
                     </label>
                     <input
@@ -170,21 +152,10 @@ function CandidateProfileForm() {
                       id="inputZip"
                     />
                   </div>
-                  {/* <div className="col-12">
-                    <div className="form-check">
-                      <input
-                        className="form-check-input"
-                        type="checkbox"
-                        id="gridCheck"
-                      />
-                      <label className="form-check-label" for="gridCheck">
-                        Check me out
-                      </label>
-                    </div>
-                  </div> */}
+                 
                   <div className="mb-3">
                     <label
-                      for="exampleFormControlTextarea1"
+                      htmlfor="exampleFormControlTextarea1"
                       className="form-label"
                     >
                       About
@@ -195,10 +166,10 @@ function CandidateProfileForm() {
                       id="exampleFormControlTextarea1"
                       rows="3"
                     ></textarea>
-                  </div>
+                  </div> */}
                   <div className="col-12">
                     <button type="submit" className="btn btn-primary">
-                      Register
+                      Register/Submit
                     </button>
                   </div>
                 </form>
