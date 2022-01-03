@@ -1,5 +1,6 @@
-import "./App.css";
-import CandidateProfileForm from "./CandidateProfileForm";
+
+import CandidateProfileForm from "./components/form/CandidateProfileForm";
+
 function App() {
   return (
     <div>

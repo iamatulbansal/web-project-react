@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+.root {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: -1rem;
+    zoom: 0.9;
+}
+
+.border_radius {
+    margin-top: -1rem;
+    width: 50%;
+    padding: 3rem;
+    box-shadow: 0px 0px 20px 10px rgb(230, 227, 227);
+    /* border: 1px solid black; */
+    border-radius: 5%;
+}
+
+input {
+    border-radius: 50px;
+}
+
+.color {
+    box-shadow: 0px 0px 20px 10px rgb(230, 227, 227);
+}
+
+@media only screen and (max-width: 600px) {
+    .root {
+        margin-top: -1.5rem;
+    }
+
+    .border_radius {
+        margin-top: -1rem;
+        margin-bottom: 4rem;
+        height: 80%;
+        font-size: 1.1rem;
+        width: 90%;
+        padding: 1rem;
+        box-shadow: 0px 0px 20px 10px rgb(230, 227, 227);
+        /* border: 1px solid black; */
+        border-radius: 30px;
+    }
+}
+
+@media only screen and (min-width: 601px) {
+    .root {
+
+        font-family: 'Poppins', sans-serif;
+        margin-top: -1rem;
+        zoom: 0.9;
+    }
+
+    .border_radius {
+        margin-top: -1rem;
+        margin-bottom: 4rem;
+        width: 80%;
+        padding: 3rem;
+        box-shadow: 0px 0px 20px 10px rgb(230, 227, 227);
+
+        border-radius: 30px;
+    }
+
+    input {
+        border-radius: 50px;
+    }
+
+    .color {
+        box-shadow: 0px 0px 20px 10px rgb(230, 227, 227);
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .root {
+
+        padding-bottom: 2rem;
+    }
+}
+
+@media only screen and (min-width:1200px) {
+    .root {
+        font-family: 'Poppins', sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: -1rem;
+        zoom: 0.9;
+    }
+
+    .border_radius {
+        margin-top: -1rem;
+        width: 50%;
+        padding: 3rem;
+        box-shadow: 0px 0px 20px 10px rgb(230, 227, 227);
+        /* border: 1px solid black; */
+        border-radius: 5%;
+    }
+
+    input {
+        border-radius: 50px;
+    }
+
+    .color {
+        box-shadow: 0px 0px 20px 10px rgb(230, 227, 227);
+    }
+
+    @media only screen and (max-width: 600px) {
+        .root {
+            margin-top: -1.5rem;
+        }
+
+        .border_radius {
+            margin-top: -1rem;
+            margin-bottom: 4rem;
+            height: 80%;
+            font-size: 1.1rem;
+            width: 90%;
+            padding: 1rem;
+            box-shadow: 0px 0px 20px 10px rgb(230, 227, 227);
+            /* border: 1px solid black; */
+            border-radius: 30px;
+        }
+    }
+}
