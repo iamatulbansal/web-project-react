@@ -1,10 +1,10 @@
 import React from "react";
-
 import { useForm } from "react-hook-form";
-
 import css from "./CandidateProfileForm.module.css";
 
 function CandidateProfileForm() {
+ 
+
   const {
     register,
     handleSubmit,
@@ -660,7 +660,7 @@ function CandidateProfileForm() {
                 </div>
                 <div className="col-md-6">
                   <label htmlFor="inputState" className="form-label">
-                  Skills/Tools
+                    Skills/Tools
                   </label>
                   <select
                     {...register("skills.name")}
